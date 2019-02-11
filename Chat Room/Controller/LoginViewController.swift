@@ -21,4 +21,7 @@ class LoginViewController: UIViewController {
         dismiss(animated: true, completion: nil)
     }
     
+    @IBAction func createAccountTapped(_ sender: Any) {
+        performSegue(withIdentifier: "createAccountSegue", sender: nil)
+    }    
 }

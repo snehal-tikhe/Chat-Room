@@ -13,9 +13,17 @@
 		4848F666220BA8C3007817E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4848F664220BA8C3007817E2 /* Main.storyboard */; };
 		4848F668220BA8C3007817E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4848F667220BA8C3007817E2 /* Assets.xcassets */; };
 		4848F66B220BA8C3007817E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4848F669220BA8C3007817E2 /* LaunchScreen.storyboard */; };
+		4868C59B220D0E4B00A30EBD /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4868C59A220D0E4B00A30EBD /* CreateAccountViewController.swift */; };
 		48C1CB43220BDBA100BD7EAB /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C1CB42220BDBA100BD7EAB /* SWRevealViewController.m */; };
 		48C1CB46220BF08A00BD7EAB /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C1CB45220BF08A00BD7EAB /* GradientView.swift */; };
 		48C1CB48220BFC9000BD7EAB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C1CB47220BFC9000BD7EAB /* LoginViewController.swift */; };
+		48E571F9220F81560056C8B5 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E571F8220F81560056C8B5 /* UserDataService.swift */; };
+		48E571FC2210D09A0056C8B5 /* AvatarPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E571FB2210D09A0056C8B5 /* AvatarPickerViewController.swift */; };
+		48E571FE2210D0F40056C8B5 /* AvatarPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E571FD2210D0F40056C8B5 /* AvatarPickerCell.swift */; };
+		48E572002210D1250056C8B5 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E571FF2210D1250056C8B5 /* RoundedButton.swift */; };
+		48E572022210F96D0056C8B5 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E572012210F96D0056C8B5 /* CircleImageView.swift */; };
+		48FE1495220E3486005E4770 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FE1494220E3486005E4770 /* Constants.swift */; };
+		48FE1498220E3557005E4770 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FE1497220E3557005E4770 /* AuthService.swift */; };
 		E9867DD9072FE633CA6DB309 /* Pods_Chat_Room.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A57137277E75239027652AA3 /* Pods_Chat_Room.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,11 +37,19 @@
 		4848F667220BA8C3007817E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4848F66A220BA8C3007817E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4848F66C220BA8C3007817E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4868C59A220D0E4B00A30EBD /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		48C1CB41220BDBA100BD7EAB /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		48C1CB42220BDBA100BD7EAB /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		48C1CB44220BDBB500BD7EAB /* Chat Room-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Chat Room-Bridging-Header.h"; sourceTree = "<group>"; };
 		48C1CB45220BF08A00BD7EAB /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		48C1CB47220BFC9000BD7EAB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		48E571F8220F81560056C8B5 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
+		48E571FB2210D09A0056C8B5 /* AvatarPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerViewController.swift; sourceTree = "<group>"; };
+		48E571FD2210D0F40056C8B5 /* AvatarPickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerCell.swift; sourceTree = "<group>"; };
+		48E571FF2210D1250056C8B5 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		48E572012210F96D0056C8B5 /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		48FE1494220E3486005E4770 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		48FE1497220E3557005E4770 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		627A11E09813C44A7D21E846 /* Pods-Chat Room.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat Room.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chat Room/Pods-Chat Room.debug.xcconfig"; sourceTree = "<group>"; };
 		A57137277E75239027652AA3 /* Pods_Chat_Room.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chat_Room.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -56,6 +72,8 @@
 				48396715220BBE5500D1170C /* ChatViewController.swift */,
 				48396717220BBE6900D1170C /* ChannelViewController.swift */,
 				48C1CB47220BFC9000BD7EAB /* LoginViewController.swift */,
+				4868C59A220D0E4B00A30EBD /* CreateAccountViewController.swift */,
+				48E571FB2210D09A0056C8B5 /* AvatarPickerViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -64,6 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				48C1CB45220BF08A00BD7EAB /* GradientView.swift */,
+				48E571FD2210D0F40056C8B5 /* AvatarPickerCell.swift */,
+				48E571FF2210D1250056C8B5 /* RoundedButton.swift */,
+				48E572012210F96D0056C8B5 /* CircleImageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -97,6 +118,8 @@
 		4848F65F220BA8C3007817E2 /* Chat Room */ = {
 			isa = PBXGroup;
 			children = (
+				48FE1496220E3496005E4770 /* Services */,
+				48FE1493220E3455005E4770 /* Utilities */,
 				48396714220BBE2800D1170C /* Model */,
 				48396713220BBE1D00D1170C /* View */,
 				48396712220BBE0C00D1170C /* Controller */,
@@ -117,6 +140,23 @@
 				48C1CB44220BDBB500BD7EAB /* Chat Room-Bridging-Header.h */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48FE1493220E3455005E4770 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				48FE1494220E3486005E4770 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		48FE1496220E3496005E4770 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				48FE1497220E3557005E4770 /* AuthService.swift */,
+				48E571F8220F81560056C8B5 /* UserDataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		DDE0ABC587E048BE74419AF3 /* Frameworks */ = {
@@ -255,12 +295,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4868C59B220D0E4B00A30EBD /* CreateAccountViewController.swift in Sources */,
 				48C1CB48220BFC9000BD7EAB /* LoginViewController.swift in Sources */,
+				48E572022210F96D0056C8B5 /* CircleImageView.swift in Sources */,
+				48E571FE2210D0F40056C8B5 /* AvatarPickerCell.swift in Sources */,
 				4848F661220BA8C3007817E2 /* AppDelegate.swift in Sources */,
+				48E571FC2210D09A0056C8B5 /* AvatarPickerViewController.swift in Sources */,
+				48FE1498220E3557005E4770 /* AuthService.swift in Sources */,
 				48396716220BBE5500D1170C /* ChatViewController.swift in Sources */,
 				48C1CB46220BF08A00BD7EAB /* GradientView.swift in Sources */,
+				48E571F9220F81560056C8B5 /* UserDataService.swift in Sources */,
 				48396718220BBE6900D1170C /* ChannelViewController.swift in Sources */,
 				48C1CB43220BDBA100BD7EAB /* SWRevealViewController.m in Sources */,
+				48FE1495220E3486005E4770 /* Constants.swift in Sources */,
+				48E572002210D1250056C8B5 /* RoundedButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
