@@ -27,8 +27,9 @@ class CreateAccountViewController: UIViewController {
     
     
     override func viewDidLoad() {
-        setUpView()
+        
         super.viewDidLoad()
+        setupView()
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -94,7 +95,7 @@ class CreateAccountViewController: UIViewController {
         performSegue(withIdentifier: "AvatarPickerSegue", sender: nil)
     }
     
-    func setUpView()
+    func setupView()
     {
         activityIndicator.isHidden = true
         usernameTxt.attributedPlaceholder = NSAttributedString(string: "Username", attributes: [NSAttributedString.Key.foregroundColor : purpleTextFieldPlaceHolder])

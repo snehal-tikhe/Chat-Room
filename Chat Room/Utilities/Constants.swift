@@ -34,10 +34,7 @@ let USER_EMAIL = "userEmail"
 
 let HEADER = ["Content-Type": "application/json; chharset=utf-8"]
 
-let BEARER_HEADER = [
-    "Authorization": "Bearer \(AuthService.instance.authToken)",
-    "Content-Type": "application/json; chharset=utf-8"
-]
+let BEARER_HEADER = ["Authorization": "Bearer \(AuthService.instance.authToken)","Content-Type": "application/json; chharset=utf-8"]
 //colors
 let purpleTextFieldPlaceHolder = #colorLiteral(red: 0.5386462312, green: 0.2818205562, blue: 1, alpha: 0.5)
 

@@ -148,7 +148,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="uaK-jV-hyv">
                                 <rect key="frame" x="62.5" y="168" width="250" height="214"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hfr-j8-5z6">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hfr-j8-5z6">
                                         <rect key="frame" x="0.0" y="0.0" width="250" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="250" id="jMF-Ab-d8B"/>
@@ -195,6 +195,9 @@
                                         <state key="normal" title="Login">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="loginTapped:" destination="g7B-JE-xIn" eventType="touchUpInside" id="s0y-3r-ZN0"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Vb-5c-IPg">
                                         <rect key="frame" x="0.0" y="179" width="250" height="35"/>
@@ -215,12 +218,22 @@
                                     <constraint firstAttribute="width" constant="250" id="PbI-3j-XZ4"/>
                                 </constraints>
                             </stackView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="6Ht-qJ-FFP">
+                                <rect key="frame" x="169" y="215" width="37" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="37" id="8TK-CJ-t8M"/>
+                                    <constraint firstAttribute="height" constant="37" id="xMU-jC-CZi"/>
+                                </constraints>
+                                <color key="color" red="0.3411764706" green="0.050980392159999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="uaK-jV-hyv" firstAttribute="top" secondItem="AJz-y4-cZG" secondAttribute="bottom" constant="32" id="9th-Ck-YiT"/>
                             <constraint firstItem="hfL-Ij-nC8" firstAttribute="top" secondItem="53H-0j-jDg" secondAttribute="top" constant="25" id="ZKd-5n-1CW"/>
+                            <constraint firstItem="6Ht-qJ-FFP" firstAttribute="centerY" secondItem="cfY-WU-fjB" secondAttribute="centerY" constant="-100" id="aeA-XH-iVg"/>
                             <constraint firstItem="AJz-y4-cZG" firstAttribute="top" secondItem="53H-0j-jDg" secondAttribute="top" constant="76" id="bX9-qA-kFf"/>
+                            <constraint firstItem="6Ht-qJ-FFP" firstAttribute="centerX" secondItem="cfY-WU-fjB" secondAttribute="centerX" id="eyr-eb-pLS"/>
                             <constraint firstItem="53H-0j-jDg" firstAttribute="trailing" secondItem="hfL-Ij-nC8" secondAttribute="trailing" constant="25" id="vcL-rI-LIm"/>
                             <constraint firstItem="AJz-y4-cZG" firstAttribute="centerX" secondItem="cfY-WU-fjB" secondAttribute="centerX" id="wgj-1e-NJz"/>
                             <constraint firstItem="uaK-jV-hyv" firstAttribute="centerX" secondItem="cfY-WU-fjB" secondAttribute="centerX" id="xjo-fN-9V5"/>
@@ -228,6 +241,9 @@
                         <viewLayoutGuide key="safeArea" id="53H-0j-jDg"/>
                     </view>
                     <connections>
+                        <outlet property="activityIndicator" destination="6Ht-qJ-FFP" id="4dq-Bp-dkx"/>
+                        <outlet property="emailTxt" destination="hfr-j8-5z6" id="i1D-9t-4F4"/>
+                        <outlet property="passwordTxt" destination="Usb-yq-Cmf" id="nut-nK-gHX"/>
                         <segue destination="7HD-cd-5Gi" kind="show" identifier="createAccountSegue" id="kuA-fi-iIg"/>
                     </connections>
                 </viewController>
