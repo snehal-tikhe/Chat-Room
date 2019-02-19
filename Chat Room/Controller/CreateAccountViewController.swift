@@ -18,8 +18,6 @@ class CreateAccountViewController: UIViewController {
     @IBOutlet weak var userImageView: UIImageView!
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
-    
-    
     //variables
     var avatarName = "profileDefault"
     var avatarColor = "[0.5, 0.5, 0.5, 1]"
@@ -87,8 +85,6 @@ class CreateAccountViewController: UIViewController {
         UIView.animate(withDuration: 0.2){
             self.userImageView.backgroundColor = self.bgColor
         }
-        
-
     }
     
     @IBAction func chooseAvatarTapped(_ sender: Any) {

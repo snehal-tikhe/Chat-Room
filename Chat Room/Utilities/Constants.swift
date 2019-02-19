@@ -16,6 +16,8 @@ let URL_REGISTER = "\(BASE_URL)account/register"
 let URL_LOGIN = "\(BASE_URL)account/login"
 let URL_USER_ADD = "\(BASE_URL)user/add"
 let URL_USER_BY_EMAIL = "\(BASE_URL)user/byEmail/"
+let URL_GET_CHANNELS = "\(BASE_URL)/channel/"
+let URL_GET_MESSAGES = "\(BASE_URL)/message/byChannel/"
 
 
 //segues
@@ -40,6 +42,8 @@ let purpleTextFieldPlaceHolder = #colorLiteral(red: 0.5386462312, green: 0.28182
 
 //Notification constants
 let NOTIF_USER_DATA_CHANGED = Notification.Name("notifUserDataChanged")
+let NOTIF_CHANNELS_LOADED = Notification.Name("channelsLoaded")
+let NOTIF_CHANNEL_SELECTED = Notification.Name("channelsSelected")
 
 
 
